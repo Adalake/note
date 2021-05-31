@@ -1,10 +1,10 @@
 // 导入颜色选择器组件
 import colorPicker from './color-picker'
-import Button from './button'
+import jrbutton from './button'
 // 存储组件列表
 const components = [
   colorPicker,
-  Button
+  jrbutton
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -25,5 +25,5 @@ export default {
   install,
   // 以下是具体的组件列表
   colorPicker,
-  Button
+  jrbutton
 }

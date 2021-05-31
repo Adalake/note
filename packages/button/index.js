@@ -1,7 +1,7 @@
-import Button from './src/Button.vue';
+import jrbutton from './src/Button.vue';
 
-Button.install = (Vue) => {
-    Vue.component(Button.name, Button)
+jrbutton.install = (Vue) => {
+    Vue.component(jrbutton.name, jrbutton)
 }
 
-export default Button;
+export default jrbutton;

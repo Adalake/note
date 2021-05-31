@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
      <Loading></Loading>
-     <Button></Button>
-      <!-- <colorPicker v-model="color" v-on:change="headleChangeColor"></colorPicker> -->
+     <jrbutton></jrbutton>
+     <colorPicker></colorPicker>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>

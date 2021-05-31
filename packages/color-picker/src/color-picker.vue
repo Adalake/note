@@ -1,19 +1,16 @@
 <template>
-	<colorPicker v-model="color" v-on:change="headleChangeColor"></colorPicker>
+  <button class="test">666</button>
 </template>
 
 <script>
 export default {
-    name: 'color-picker',
-	data () {
-		return {
-			color: '#ff0000'
-		}
-	},
-	methods: {
-		headleChangeColor () {
-			console.log('颜色改变')
-		}
-	}
-}
+  name: "colorPicker",
+};
 </script>
+
+<style>
+.test {
+  background: darkcyan;
+  color: red;
+}
+</style>
