@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
      <Loading></Loading>
-     <jrbutton></jrbutton>
+     <!-- <jrbutton></jrbutton> -->
+     <jr-button>el-ui 按钮</jr-button>
      <colorPicker></colorPicker>
     <h1>{{ msg }}</h1>
     <p>
